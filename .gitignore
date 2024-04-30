@@ -1,0 +1,21 @@
+# Operating System and IDE generated files
+*.DS_Store
+.idea/
+__pycache__/
+
+# Data and Local Models 
+/data/*.mp3  # Or other audio formats
+/data/*.*   # Catch any other data files
+/models/
+
+# Python-specific
+*.pyc
+venv/  # Or the name of your virtual environment 
+.env
+
+# Configuration
+config.ini  # If you have a non-standard config file name, adjust this
+
+# Logs or temporary files
+*.log
+*.tmp
